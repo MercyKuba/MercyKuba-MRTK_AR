@@ -1,0 +1,296 @@
+Last login: Fri Apr  2 00:12:55 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Aitmyrzas-MacBook-Pro:~ aitmyrza$ git init
+Reinitialized existing Git repository in /Users/aitmyrza/.git/
+Aitmyrzas-MacBook-Pro:~ aitmyrza$ ls
+Applications		Library			Public
+Creative Cloud Files	Movies			PycharmProjects
+Desktop			Music			VirtualBox VMs
+Documents		Pictures		hw1
+Downloads		Postman			xgen
+Aitmyrzas-MacBook-Pro:~ aitmyrza$ ls -la
+total 88
+drwxr-xr-x+  38 aitmyrza  staff   1216 Apr  2 00:36 .
+drwxr-xr-x    6 root      admin    192 Jan  1  2020 ..
+-r--------    1 aitmyrza  staff      7 Mar  6  2020 .CFUserTextEncoding
+-rw-r--r--@   1 aitmyrza  staff  14340 Apr  2 00:32 .DS_Store
+drwxr-xr-x    6 aitmyrza  staff    192 Apr  1 21:20 .IdentityService
+drwx------    7 aitmyrza  staff    224 Apr  2 00:01 .Trash
+drwxr-xr-x    7 aitmyrza  staff    224 Apr  2 00:15 .android
+-rw-------    1 aitmyrza  staff   3576 Mar 28 02:33 .bash_history
+-rw-r--r--    1 aitmyrza  staff     71 Feb  6 05:15 .bash_profile
+drwx------   49 aitmyrza  staff   1568 Apr  2 00:41 .bash_sessions
+drwxr-xr-x    7 aitmyrza  staff    224 Feb  3 01:52 .config
+drwx------    3 aitmyrza  staff     96 Jan 30  2020 .cups
+drwxr-xr-x   10 aitmyrza  staff    320 Apr  2 00:41 .git
+-rw-r-----    1 aitmyrza  staff     42 Apr  2 00:36 .gitattributes
+-rw-r--r--    1 aitmyrza  staff    277 Mar  4 22:46 .gitconfig
+drwxr-xr-x    3 aitmyrza  staff     96 Nov  5  2019 .m2
+drwxr-xr-x    2 aitmyrza  staff     64 Feb 12 23:32 .matplotlib
+drwxr-xr-x    3 aitmyrza  staff     96 Feb  3 01:50 .mono
+drwxrwxrwx    3 aitmyrza  staff     96 Feb 13 11:38 .nchsoftware
+drwxr-xr-x    5 aitmyrza  staff    160 Feb  6 05:11 .pyenv
+-rw-------    1 aitmyrza  staff     54 Feb  9 11:34 .python_history
+drwxr-xr-x    3 aitmyrza  staff     96 Feb  3 05:10 .templateengine
+-rw-------    1 aitmyrza  staff   1972 Feb 13 22:40 .viminfo
+drwx------@   5 aitmyrza  staff    160 Jan 20  2020 Applications
+drwx------@   4 aitmyrza  staff    128 Mar 30 23:49 Creative Cloud Files
+drwx------@ 183 aitmyrza  staff   5856 Apr  2 00:39 Desktop
+drwx------@  14 aitmyrza  staff    448 Mar 24 01:32 Documents
+drwx------@  15 aitmyrza  staff    480 Apr  2 00:11 Downloads
+drwx------@  87 aitmyrza  staff   2784 Apr  2 00:15 Library
+drwx------+   4 aitmyrza  staff    128 Jul  9  2020 Movies
+drwx------+   5 aitmyrza  staff    160 Jul  9  2020 Music
+drwx------+   5 aitmyrza  staff    160 Oct  7 02:20 Pictures
+drwxr-xr-x    3 aitmyrza  staff     96 Jan  6 13:52 Postman
+drwxr-xr-x+   4 aitmyrza  staff    128 Sep 26  2019 Public
+drwxr-xr-x    3 aitmyrza  staff     96 Feb  9 12:01 PycharmProjects
+drwxr-xr-x    3 aitmyrza  staff     96 Sep 17  2020 VirtualBox VMs
+drwxr-xr-x   12 aitmyrza  staff    384 Mar  1 22:04 hw1
+drwxr-xr-x    2 aitmyrza  staff     64 Feb 11 14:23 xgen
+Aitmyrzas-MacBook-Pro:~ aitmyrza$ cd /Users/aitmyrza/Desktop/College/COSC4397/MRTK_ARF
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ ls
+Assembly-CSharp.csproj
+Assets
+Library
+Logs
+MRTK_ARF.sln
+Microsoft.MixedReality.Toolkit.Async.csproj
+Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj
+Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj
+Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj
+Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj
+Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj
+Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj
+Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj
+Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj
+Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj
+Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj
+Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj
+Microsoft.MixedReality.Toolkit.Examples.Editor.Dwell.csproj
+Microsoft.MixedReality.Toolkit.Examples.csproj
+Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj
+Microsoft.MixedReality.Toolkit.Gltf.csproj
+Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj
+Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj
+Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj
+Microsoft.MixedReality.Toolkit.Providers.OpenVR.csproj
+Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj
+Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj
+Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj
+Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj
+Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj
+Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj
+Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj
+Microsoft.MixedReality.Toolkit.SDK.Editor.csproj
+Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj
+Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj
+Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj
+Microsoft.MixedReality.Toolkit.SDK.csproj
+Microsoft.MixedReality.Toolkit.Services.BoundarySystem.csproj
+Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj
+Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj
+Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj
+Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj
+Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj
+Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj
+Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj
+Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj
+Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj
+Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj
+Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj
+Microsoft.MixedReality.Toolkit.csproj
+Packages
+ProjectSettings
+obj
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ touch .gitignore
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ touch .gitattributes
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint: 
+hint: 	git config --global init.defaultBranch <name>
+hint: 
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint: 
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/aitmyrza/Desktop/College/COSC4397/MRTK_ARF/.git/
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	.gitattributes
+	.gitignore
+	.idea/
+	.vs/
+	Assembly-CSharp.csproj
+	Assets/
+	Library/
+	Logs/
+	MRTK_ARF.sln
+	Microsoft.MixedReality.Toolkit.Async.csproj
+	Microsoft.MixedReality.Toolkit.Demos.Gltf.Inspectors.csproj
+	Microsoft.MixedReality.Toolkit.Demos.Gltf.csproj
+	Microsoft.MixedReality.Toolkit.Demos.InspectorFields.Inspectors.csproj
+	Microsoft.MixedReality.Toolkit.Demos.InspectorFields.csproj
+	Microsoft.MixedReality.Toolkit.Demos.StandardShader.Inspectors.csproj
+	Microsoft.MixedReality.Toolkit.Demos.UX.Interactables.csproj
+	Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.csproj
+	Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.csproj
+	Microsoft.MixedReality.Toolkit.Editor.Inspectors.csproj
+	Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.csproj
+	Microsoft.MixedReality.Toolkit.Editor.Utilities.csproj
+	Microsoft.MixedReality.Toolkit.Examples.Editor.Dwell.csproj
+	Microsoft.MixedReality.Toolkit.Examples.csproj
+	Microsoft.MixedReality.Toolkit.Gltf.Importers.csproj
+	Microsoft.MixedReality.Toolkit.Gltf.csproj
+	Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Providers.LeapMotion.csproj
+	Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.csproj
+	Microsoft.MixedReality.Toolkit.Providers.OpenVR.csproj
+	Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Providers.UnityAR.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.csproj
+	Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.csproj
+	Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.csproj
+	Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.csproj
+	Microsoft.MixedReality.Toolkit.Providers.XRSDK.csproj
+	Microsoft.MixedReality.Toolkit.SDK.Editor.csproj
+	Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.csproj
+	Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.csproj
+	Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.csproj
+	Microsoft.MixedReality.Toolkit.SDK.csproj
+	Microsoft.MixedReality.Toolkit.Services.BoundarySystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.CameraSystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.InputAnimation.csproj
+	Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Services.InputSimulation.csproj
+	Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.csproj
+	Microsoft.MixedReality.Toolkit.Services.InputSystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.SceneSystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.csproj
+	Microsoft.MixedReality.Toolkit.Services.TeleportSystem.csproj
+	Microsoft.MixedReality.Toolkit.StandardAssets.Editor.csproj
+	Microsoft.MixedReality.Toolkit.csproj
+	Packages/
+	ProjectSettings/
+	obj/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git add .gitignore
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git add .gitattributes
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ nano .gitignore
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ nano.gitattributes
+-bash: nano.gitattributes: command not found
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ nano .gitattributes
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ nano .gitattributes
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git add .gitignore
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git add .gitattributes
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git commit -m "I am adding gitignore"
+[master (root-commit) 1d96a43] I am adding gitignore
+ 2 files changed, 199 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git commit -m "I am adding gitignore"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.DS_Store
+	.idea/
+	Assets/
+	Packages/
+	ProjectSettings/
+
+nothing added to commit but untracked files present (use "git add" to track)
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git config --global --rfit
+error: unknown option `rfit'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+Aitmyrzas-MacBook-Pro:MRTK_ARF aitmyrza$ git commit --amend --reset-author
+hint: Waiting for your editor to close the file... 
+I am adding gitignore
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   .gitattributes
+#       new file:   .gitignore
+#
+# Untracked files:
+#       .DS_Store
+#       .idea/
+#       Assets/
+#       Packages/
+#       ProjectSettings/
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
